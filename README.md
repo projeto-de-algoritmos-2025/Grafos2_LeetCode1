@@ -13,7 +13,11 @@
 Para essa entrega, a dupla escolheu fazer exercícios da plataforma LeetCode: dois difíceis e dois médios. 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+### [847. Shortest Path Visiting All Nodes (Difícil)](https://leetcode.com/problems/shortest-path-visiting-all-nodes/description/)
+
+Modelei o problema como um grafo não direcionado em que cada nó representa um estado de visitação e as arestas entre os nós representam a transição entre estados com um custo unitário. Primeiramente, utilizei o algoritmo de Dijkstra com bitmask para calcular o menor número de passos necessários para visitar todos os nós do grafo. A cada passo, considerei o nó atual e a bitmask dos nós visitados, atualizando o custo total e expandindo os vizinhos. Para garantir a eficiência, utilizei uma fila de prioridade (min-heap) para sempre expandir o estado com o menor custo acumulado.
+
+![Exercício 847](../Grafos2_LeetCode1/assets/exercicio_847_leet.png)
 
 ## Instalação 
 **Linguagem**: xxxxxx<br>
