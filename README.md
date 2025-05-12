@@ -31,6 +31,12 @@ O problema foi resolvido utilizando o algoritmo de Dijkstra, que encontra o cami
 
 ![743](https://github.com/user-attachments/assets/1571851f-6b49-4664-9e75-30354e9d2a4d)
 
+### [721. Accounts Merge (Médio)](https://leetcode.com/problems/accounts-merge/description/)
+
+Modelei o problema como um grafo onde cada e-mail é um nó, e há uma conexão (aresta) entre e-mails que aparecem juntos em uma conta. Foi utilizado a estrutura de Union-Find (inspirada no algoritmo de Kruskal) para unir e-mails de uma mesma conta, agrupando-os por componentes conectados. Após unificar todos os e-mails relacionados, foi agrupado os conjuntos resultantes, ordenando os e-mails e adicionando o nome do usuário correspondente a cada grupo, formando assim a lista final de contas mescladas.
+
+![exercicio_721_leet](https://github.com/user-attachments/assets/9f3c6a51-c388-4f8e-851e-0c9c689f3da7)
+
 ## Instalação 
 **Linguagem**: Python e C++<br>
 
