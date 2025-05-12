@@ -37,6 +37,18 @@ Modelei o problema como um grafo onde cada e-mail é um nó, e há uma conexão 
 
 ![exercicio_721_leet](https://github.com/user-attachments/assets/9f3c6a51-c388-4f8e-851e-0c9c689f3da7)
 
+### Gravação dos exercícios
+
+<p align="center">
+  <a href="https://youtu.be/_PWidBimUPY" target="_blank">
+    <img src="https://img.youtube.com/vi/_PWidBimUPY/0.jpg" alt="Assista à explicação dos exercícios" width="700" />
+  </a>
+</p>
+
+<p align="center">
+  Disponível em: <a href="https://youtu.be/_PWidBimUPY" target="_blank">https://youtu.be/_PWidBimUPY</a>
+</p>
+
 ## Instalação 
 **Linguagem**: Python e C++<br>
 
