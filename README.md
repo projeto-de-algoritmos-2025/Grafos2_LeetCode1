@@ -1,6 +1,6 @@
 # LeetCode
 
-**Número da Lista**: X<br>
+**Número da Lista**: 2<br>
 **Conteúdo da Disciplina**: Grafos 2<br>
 
 ## Alunos
@@ -10,7 +10,7 @@
 | 22/2029243  |  Victor Hugo dos Santos Bernardes |
 
 ## Sobre 
-Para essa entrega, a dupla escolheu fazer exercícios da plataforma LeetCode: dois difíceis e dois médios. 
+Para essa entrega, a dupla escolheu fazer exercícios da plataforma LeetCode: dois de nível difícil e dois de nível médio. 
 
 ## Screenshots
 ### [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree (Difícil)](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/description/)
@@ -33,14 +33,10 @@ O problema foi resolvido utilizando o algoritmo de Dijkstra, que encontra o cami
 
 ## Instalação 
 **Linguagem**: Python e C++<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+O LeetCode é uma plataforma online usada para praticar algoritmos e estruturas de dados. Cada problema fornece uma descrição, exemplos e um editor de código com uma estrutura pré-definida (geralmente uma classe Solution com um método a ser implementado). O usuário pode escrever sua solução diretamente no editor e usar o botão "Run Code" para testar com os exemplos fornecidos ou "Submit" para validar a solução contra todos os casos de teste do sistema. A plataforma suporta diversas linguagens de programação e oferece feedback automático sobre desempenho e correção.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
 
 
 
