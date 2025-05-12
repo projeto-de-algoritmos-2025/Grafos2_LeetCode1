@@ -13,6 +13,12 @@
 Para essa entrega, a dupla escolheu fazer exercícios da plataforma LeetCode: dois difíceis e dois médios. 
 
 ## Screenshots
+### [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree (Difícil)](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/description/)
+
+O problema foi resolvido usando o algoritmo de Kruskal em conjunto com a estrutura Union-Find para construir a Árvore Geradora Mínima (MST). A solução calcula o peso mínimo da MST original e, em seguida, testa cada aresta: se removê-la aumenta o custo ou impede a construção da MST, ela é considerada crítica; se forçá-la a entrar na MST ainda resulta no mesmo custo mínimo, ela é considerada pseudo-crítica. Essa abordagem eficiente permite identificar corretamente o papel de cada aresta na formação da MST.
+
+![exercicio_1489_leet](./assets/1489.png)
+
 ### [847. Shortest Path Visiting All Nodes (Difícil)](https://leetcode.com/problems/shortest-path-visiting-all-nodes/description/)
 
 Modelei o problema como um grafo não direcionado em que cada nó representa um estado de visitação e as arestas entre os nós representam a transição entre estados com um custo unitário. Primeiramente, utilizei o algoritmo de Dijkstra com bitmask para calcular o menor número de passos necessários para visitar todos os nós do grafo. A cada passo, considerei o nó atual e a bitmask dos nós visitados, atualizando o custo total e expandindo os vizinhos. Para garantir a eficiência, utilizei uma fila de prioridade (min-heap) para sempre expandir o estado com o menor custo acumulado.
