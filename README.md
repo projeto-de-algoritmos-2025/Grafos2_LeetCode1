@@ -17,7 +17,8 @@ Para essa entrega, a dupla escolheu fazer exercícios da plataforma LeetCode: do
 
 O problema foi resolvido usando o algoritmo de Kruskal em conjunto com a estrutura Union-Find para construir a Árvore Geradora Mínima (MST). A solução calcula o peso mínimo da MST original e, em seguida, testa cada aresta: se removê-la aumenta o custo ou impede a construção da MST, ela é considerada crítica; se forçá-la a entrar na MST ainda resulta no mesmo custo mínimo, ela é considerada pseudo-crítica. Essa abordagem eficiente permite identificar corretamente o papel de cada aresta na formação da MST.
 
-![exercicio_1489_leet](./assets/1489.png)
+![1489](https://github.com/user-attachments/assets/0264e4c1-560d-4c0d-9da1-0034c6c84666)
+
 
 ### [847. Shortest Path Visiting All Nodes (Difícil)](https://leetcode.com/problems/shortest-path-visiting-all-nodes/description/)
 
